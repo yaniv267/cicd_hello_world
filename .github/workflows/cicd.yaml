@@ -2,7 +2,7 @@ name: print file contents
 on: [push]
 jobs:
     print_my_file:
-        runs-on: ubuntu:latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
