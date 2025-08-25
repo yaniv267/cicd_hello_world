@@ -1,1 +1,9 @@
-
+name: print file contents
+on: [push]
+jobs:
+    print_my_file:
+        runs-on: ubuntu:latest
+        steps:
+            - uses: actions/checkout
+            -  run: cat hello_world.txt
+            
